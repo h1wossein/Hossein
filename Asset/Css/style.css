@@ -178,4 +178,8 @@ body{
         justify-content: center;
         align-items: center;
     }
+        .skil{
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
 }
