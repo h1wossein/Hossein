@@ -165,6 +165,7 @@ body{
 
 @media (max-width: 900px) {
     .continer{
+        max-width: 900px;
         display: block;
     }
     .Language{
