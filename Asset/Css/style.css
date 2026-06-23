@@ -98,12 +98,11 @@ body{
     align-items: center;
     padding: 5px;
     margin-top: 50px;
+    border-radius: 15px;
+    text-align: center;
 }
 .skilEdite{
-    text-align: center;
-    padding: 20px;
-    border: 0.5px solid transparent;
-    border-radius: 10px;
+    padding: 10px;
     background-color: rgba(12, 88, 154, 0.115);
 }
 .txtBig{
@@ -116,7 +115,6 @@ body{
     padding: 5px;
     margin-top: 50px;
     border-radius: 15px;
-    /* max-width: 12000px; */
     background-color: rgba(12, 88, 154, 0.115);
 }
 .Language{
@@ -178,7 +176,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-        .skil{
+    .skil{
         overflow-x: scroll;
         scrollbar-width: none;
     }
