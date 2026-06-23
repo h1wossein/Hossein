@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Motion Picture Personal Use';
+    src: url(../Font/MotionPicturePersonalUse.woff) format('woff2'),
+        url(../Font/MotionPicturePersonalUse.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Biyonix Demo';
+    src: url('../Font/BiyonixDemo-Regular.woff2') format('woff2'),
+        url('../Font/BiyonixDemo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    font-family: 'Biyonix Demo' 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ready{
+    margin-bottom: 20px;
+}
+.ready2{
+    padding: 10px;
+    margin: 5px;
+}
+.continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+}
+.imgEdite{
+    height: 500px;
+    width: 500px;
+    border-radius: 1000px;
+}
+.txt{
+    max-width: 700px;
+}
+.txtEdite{
+    padding: 5px;
+    margin-top: 5px;
+}
+.clickEdite{
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(7, 106, 199);
+    transition: 0.5s;
+}
+.clickEdite:hover{
+    background-color: rgb(7, 90, 169);
+}
+.contactEdite{
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.485);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.contactEdite:hover{
+    background-color: rgb(49, 47, 47);
+}
+.iconEdite{
+    margin-top: 20px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+.skil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+.skilEdite{
+    text-align: center;
+    padding: 20px;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(12, 88, 154, 0.115);
+}
+.txtBig{
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0px #7A7A7A;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.Languages{
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 15px;
+    /* max-width: 12000px; */
+    background-color: rgba(12, 88, 154, 0.115);
+}
+.Language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: pink;
+}
+::-webkit-scrollbar{
+    display: none;
+    background-color: pink;
+}
+::scroll-marker{
+    display: none;
+}
+.LanguageEdit{
+    text-align: center;
+}
+.LanguageIconEdite{
+    height: 100px;
+    width: 100px;
+}
+.LanguageEdited{
+    color: rgba(123, 122, 121, 0.836);
+    font-size: 19px;
+}
+.Loading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(12, 88, 154, 0.115);
+}
+.txtLoading{
+    color: rgba(123, 122, 121, 0.836);
+    font-size: 19px;
+}
+::selection{
+    color: rgb(207, 193, 193);
+    background-color: rgba(255, 255, 255, 0.046);
+}
+
+@media (max-width: 900px) {
+    .continer{
+        display: block;
+    }
+    .Language{
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
